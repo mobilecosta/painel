@@ -104,9 +104,65 @@
 					"idstatus": "5"
 				}
 			]
+		},
+		{
+			"idfilial": "",
+			"filial": "",
+			"item": "000003",
+			"ped": "000003",
+			"orcamento": "",
+			"atendimento": "",
+			"type": "PED",
+			"tipo": "Pedido",
+			"createdate": "20220223",
+			"updatedate": "20220223",
+			"createuser": "Administrador",
+			"updateuser": "Administrador",
+			"descriptionstatus": "Pedido de venda liberado",
+			"idstatus": "9",
+			"idcliente": "000001",
+			"cliente": "JFR TECNOLOGIA",
+			"cidcliente": "SANTO ANDRE",
+			"estcliente": "SP",
+			"lojacli": "01",
+			"condpag": "A VISTA",
+			"transportadora": "PADRAO",
+			"tpcliente": "F",
+			"seller": "VENDEDOR PADRAO",
+			"hratu": "21:43:51",
+			"agrupanf": "Não",
+			"origem": "5",
+			"history": [
+				{
+					"ped": "000003",
+					"orcamento": "",
+					"atendimento": "",
+					"type": "PED",
+					"createdate": "20220223",
+					"updatedate": "20220223",
+					"hratu": "21:43:51",
+					"createuser": "Administrador",
+					"updateuser": "Administrador",
+					"descriptionstatus": "Pedido de venda liberado",
+					"idstatus": "9"
+				},
+				{
+					"ped": "000003",
+					"orcamento": "",
+					"atendimento": "",
+					"type": "PED",
+					"createdate": "20220223",
+					"updatedate": "20220223",
+					"hratu": "21:42:23",
+					"createuser": "Administrador",
+					"updateuser": "Administrador",
+					"descriptionstatus": "Pedido de venda em aberto",
+					"idstatus": "5"
+				}
+			]
 		}
 	],
-	"count": 1
+	"count": 2
   },
   "PACHARTSDATA": 
   {
