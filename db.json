@@ -33,6 +33,9 @@
 		"13": "estcliente"
 	}
   },
+  "pausrfilters":
+  {
+  },
   "GetConfiguracaoFases":
   {
 	"5": {
