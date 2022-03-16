@@ -111,8 +111,8 @@
 	],
 	"count": 1
   },
-  "dash": 
-{
+  "PACHARTSDATA": 
+  {
 	"piechart": [],
 	"kendoareachart": [
 		{
@@ -170,5 +170,5 @@
 	"quantitywidget": 0,
 	"quantityfinishedwidget": 0,
 	"percentagefinisheddwidget": 0
-}
+  }
 }
