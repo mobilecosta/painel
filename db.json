@@ -14,6 +14,38 @@
 			]
 		}
 	},
+  "pausrcolumns":
+  {
+	"user": "admin",
+	"columns": {
+		"1": "item",
+		"2": "tipo",
+		"3": "condpag",
+		"4": "lojacli",
+		"5": "tpcliente",
+		"6": "ped",
+		"7": "orcamento",
+		"8": "atendimento",
+		"9": "origem",
+		"10": "updatedate",
+		"11": "createuser",
+		"12": "updateuser",
+		"13": "estcliente"
+	}
+  },
+  "GetConfiguracaoFases":
+  {
+	"5": {
+		"dsfase": "Pedido de venda em aberto",
+		"hrurgent": "0000",
+		"hralert": "0010"
+	},
+	"9": {
+		"dsfase": "Pedido de venda liberado",
+		"hrurgent": "",
+		"hralert": ""
+	}
+  },
   "pedidos": 
   {
     "pedidos": [
