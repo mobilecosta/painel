@@ -1,5 +1,6 @@
 {
-  "pedidos": [
+  "pedidos": 
+  {
     "pedidos": [
 		{
 			"idfilial": "",
@@ -59,5 +60,65 @@
 		}
 	],
 	"count": 1
-  ]
+  },
+  "dash": 
+{
+	"piechart": [],
+	"kendoareachart": [
+		{
+			"name": "Pedido",
+			"data": [
+				0,
+				1,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			]
+		},
+		{
+			"name": "Orçamento",
+			"data": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			]
+		},
+		{
+			"name": "Atendimento",
+			"data": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			]
+		}
+	],
+	"quantitywidget": 0,
+	"quantityfinishedwidget": 0,
+	"percentagefinisheddwidget": 0
+}
 }
