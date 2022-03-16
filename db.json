@@ -1,4 +1,19 @@
 {
+  "authuser": 
+	{
+		"id": "000000",
+		"name": "Administrador",
+		"permissions": {
+			"atendimento": true,
+			"orcamento": true,
+			"pedido": true,
+			"separacao": true,
+			"faturamento": true,
+			"filiais": [
+				"@@@@"
+			]
+		}
+	},
   "pedidos": 
   {
     "pedidos": [
