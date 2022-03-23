@@ -162,7 +162,9 @@
 			]
 		}
 	],
-	"count": 2
+	"count": 2,
+	"countTotPed": 1,
+	"countTotVol": 1
   },
   "PACHARTSDATA": 
   {
