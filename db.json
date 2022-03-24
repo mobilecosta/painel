@@ -1,229 +1,448 @@
 {
-  "authuser": 
-	{
-		"id": "000000",
-		"name": "Administrador",
-		"permissions": {
-			"atendimento": true,
-			"orcamento": true,
-			"pedido": true,
-			"separacao": true,
-			"faturamento": true,
-			"filiais": [
-				"@@@@"
-			]
-		}
-	},
-  "pausrcolumns":
-  {
-	"user": "admin",
-	"columns": {
-		"1": "item",
-		"2": "tipo",
-		"3": "condpag",
-		"4": "lojacli",
-		"5": "tpcliente",
-		"6": "ped",
-		"7": "orcamento",
-		"8": "atendimento",
-		"9": "origem",
-		"10": "updatedate",
-		"11": "createuser",
-		"12": "updateuser",
-		"13": "estcliente"
-	}
+  "authuser": {
+    "id": "000000",
+    "name": "Administrador",
+    "permissions": {
+      "atendimento": true,
+      "orcamento": true,
+      "pedido": true,
+      "separacao": true,
+      "faturamento": true,
+      "filiais": ["@@@@"]
+    }
   },
-  "GetConfiguracaoFases":
-  {
-	"5": {
-		"dsfase": "Pedido de venda em aberto",
-		"hrurgent": "0000",
-		"hralert": "0010"
-	},
-	"9": {
-		"dsfase": "Pedido de venda liberado",
-		"hrurgent": "",
-		"hralert": ""
-	}
+  "pausrcolumns": {},
+  "GetConfiguracaoFases": {
+    "5": {
+      "dsfase": "Pedido de venda em aberto",
+      "hrurgent": "0000",
+      "hralert": "0010"
+    },
+    "9": {
+      "dsfase": "Pedido de venda liberado",
+      "hrurgent": "",
+      "hralert": ""
+    }
   },
-  "GetStatusPedidos": 
-  {
+  "GetStatusPedidos": {
     "pedidos": [
-		{
-			"idfilial": "",
-			"filial": "",
-			"item": "000002",
-			"ped": "000002",
-			"orcamento": "",
-			"atendimento": "",
-			"type": "PED",
-			"tipo": "Pedido",
-			"createdate": "20220223",
-			"updatedate": "20220223",
-			"createuser": "Administrador",
-			"updateuser": "Administrador",
-			"descriptionstatus": "Pedido de venda liberado",
-			"idstatus": "9",
-			"idcliente": "000001",
-			"cliente": "JFR TECNOLOGIA",
-			"cidcliente": "SANTO ANDRE",
-			"estcliente": "SP",
-			"lojacli": "01",
-			"condpag": "A VISTA",
-			"transportadora": "PADRAO",
-			"tpcliente": "F",
-			"seller": "VENDEDOR PADRAO",
-			"hratu": "21:43:51",
-			"agrupanf": "Não",
-			"origem": "5",
-			"history": [
-				{
-					"ped": "000002",
-					"orcamento": "",
-					"atendimento": "",
-					"type": "PED",
-					"createdate": "20220223",
-					"updatedate": "20220223",
-					"hratu": "21:43:51",
-					"createuser": "Administrador",
-					"updateuser": "Administrador",
-					"descriptionstatus": "Pedido de venda liberado",
-					"idstatus": "9"
-				},
-				{
-					"ped": "000002",
-					"orcamento": "",
-					"atendimento": "",
-					"type": "PED",
-					"createdate": "20220223",
-					"updatedate": "20220223",
-					"hratu": "21:42:23",
-					"createuser": "Administrador",
-					"updateuser": "Administrador",
-					"descriptionstatus": "Pedido de venda em aberto",
-					"idstatus": "5"
-				}
-			]
-		},
-		{
-			"idfilial": "",
-			"filial": "",
-			"item": "000003",
-			"ped": "000003",
-			"orcamento": "",
-			"atendimento": "",
-			"type": "PED",
-			"tipo": "Pedido",
-			"createdate": "20220223",
-			"updatedate": "20220223",
-			"createuser": "Administrador",
-			"updateuser": "Administrador",
-			"descriptionstatus": "Pedido de venda liberado",
-			"idstatus": "9",
-			"idcliente": "000001",
-			"cliente": "JFR TECNOLOGIA",
-			"cidcliente": "SANTO ANDRE",
-			"estcliente": "SP",
-			"lojacli": "01",
-			"condpag": "A VISTA",
-			"transportadora": "PADRAO",
-			"tpcliente": "F",
-			"seller": "VENDEDOR PADRAO",
-			"hratu": "21:43:51",
-			"agrupanf": "Não",
-			"origem": "5",
-			"history": [
-				{
-					"ped": "000003",
-					"orcamento": "",
-					"atendimento": "",
-					"type": "PED",
-					"createdate": "20220223",
-					"updatedate": "20220223",
-					"hratu": "21:43:51",
-					"createuser": "Administrador",
-					"updateuser": "Administrador",
-					"descriptionstatus": "Pedido de venda liberado",
-					"idstatus": "9"
-				},
-				{
-					"ped": "000003",
-					"orcamento": "",
-					"atendimento": "",
-					"type": "PED",
-					"createdate": "20220223",
-					"updatedate": "20220223",
-					"hratu": "21:42:23",
-					"createuser": "Administrador",
-					"updateuser": "Administrador",
-					"descriptionstatus": "Pedido de venda em aberto",
-					"idstatus": "5"
-				}
-			]
-		}
-	],
-	"count": 2,
-	"countTotPed": 1,
-	"countTotVol": 1
+      {
+        "idfilial": "",
+        "filial": "",
+        "item": "000002",
+        "ped": "000002",
+        "orcamento": "",
+        "atendimento": "",
+        "type": "PED",
+        "tipo": "Pedido",
+        "createdate": "20220223",
+        "updatedate": "20220223",
+        "createuser": "Administrador",
+        "updateuser": "Administrador",
+        "descriptionstatus": "Pedido de venda liberado",
+        "idstatus": "9",
+        "idcliente": "000001",
+        "cliente": "JFR TECNOLOGIA",
+        "cidcliente": "SANTO ANDRE",
+        "estcliente": "SP",
+        "lojacli": "01",
+        "condpag": "A VISTA",
+        "transportadora": "PADRAO",
+        "tpcliente": "F",
+        "seller": "VENDEDOR PADRAO",
+        "hratu": "21:43:51",
+        "agrupanf": "Não",
+        "origem": "5",
+        "history": [
+          {
+            "ped": "000002",
+            "orcamento": "",
+            "atendimento": "",
+            "type": "PED",
+            "createdate": "20220223",
+            "updatedate": "20220223",
+            "hratu": "21:43:51",
+            "createuser": "Administrador",
+            "updateuser": "Administrador",
+            "descriptionstatus": "Pedido de venda liberado",
+            "idstatus": "9"
+          },
+          {
+            "ped": "000002",
+            "orcamento": "",
+            "atendimento": "",
+            "type": "PED",
+            "createdate": "20220223",
+            "updatedate": "20220223",
+            "hratu": "21:42:23",
+            "createuser": "Administrador",
+            "updateuser": "Administrador",
+            "descriptionstatus": "Pedido de venda em aberto",
+            "idstatus": "5"
+          }
+        ]
+      },
+      {
+        "idfilial": "",
+        "filial": "",
+        "item": "000003",
+        "ped": "000003",
+        "orcamento": "",
+        "atendimento": "",
+        "type": "PED",
+        "tipo": "Pedido",
+        "createdate": "20220223",
+        "updatedate": "20220223",
+        "createuser": "Administrador",
+        "updateuser": "Administrador",
+        "descriptionstatus": "Pedido de venda liberado",
+        "idstatus": "9",
+        "idcliente": "000001",
+        "cliente": "JFR TECNOLOGIA",
+        "cidcliente": "SANTO ANDRE",
+        "estcliente": "SP",
+        "lojacli": "01",
+        "condpag": "A VISTA",
+        "transportadora": "PADRAO",
+        "tpcliente": "F",
+        "seller": "VENDEDOR PADRAO",
+        "hratu": "21:43:51",
+        "agrupanf": "Não",
+        "origem": "5",
+        "history": [
+          {
+            "ped": "000003",
+            "orcamento": "",
+            "atendimento": "",
+            "type": "PED",
+            "createdate": "20220223",
+            "updatedate": "20220223",
+            "hratu": "21:43:51",
+            "createuser": "Administrador",
+            "updateuser": "Administrador",
+            "descriptionstatus": "Pedido de venda liberado",
+            "idstatus": "9"
+          },
+          {
+            "ped": "000003",
+            "orcamento": "",
+            "atendimento": "",
+            "type": "PED",
+            "createdate": "20220223",
+            "updatedate": "20220223",
+            "hratu": "21:42:23",
+            "createuser": "Administrador",
+            "updateuser": "Administrador",
+            "descriptionstatus": "Pedido de venda em aberto",
+            "idstatus": "5"
+          }
+        ]
+      }
+    ],
+    "count": 2,
+    "countTotPed": 1,
+    "countTotVol": 1
   },
-  "PACHARTSDATA": 
-  {
-	"piechart": [],
-	"kendoareachart": [
-		{
-			"name": "Pedido",
-			"data": [
-				0,
-				1,
-				0,
-				0,
-				0,
-				0,
-				0,
-				0,
-				0,
-				0,
-				0,
-				0
-			]
-		},
-		{
-			"name": "Orçamento",
-			"data": [
-				0,
-				0,
-				0,
-				0,
-				0,
-				0,
-				0,
-				0,
-				0,
-				0,
-				0,
-				0
-			]
-		},
-		{
-			"name": "Atendimento",
-			"data": [
-				0,
-				0,
-				0,
-				0,
-				0,
-				0,
-				0,
-				0,
-				0,
-				0,
-				0,
-				0
-			]
-		}
-	],
-	"quantitywidget": 0,
-	"quantityfinishedwidget": 0,
-	"percentagefinisheddwidget": 0
+  "PACHARTSDATA": {
+    "piechart": [],
+    "kendoareachart": [
+      {
+        "name": "Pedido",
+        "data": [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+      },
+      {
+        "name": "Orçamento",
+        "data": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+      },
+      {
+        "name": "Atendimento",
+        "data": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+      }
+    ],
+    "quantitywidget": 0,
+    "quantityfinishedwidget": 0,
+    "percentagefinisheddwidget": 0
+  },
+  "tableFilters": {
+    "filialFilterOptions": [
+      {
+        "value": "00",
+        "label": "Todas"
+      },
+      {
+        "value": "01",
+        "label": "01 - SANTO ANDRE"
+      },
+      {
+        "value": "02",
+        "label": "02 - SÃO PAULO"
+      },
+      {
+        "value": "03",
+        "label": "03 - SÃO PAULO"
+      },
+      {
+        "value": "04",
+        "label": "04 - SÃO PAULO"
+      },
+      {
+        "value": "05",
+        "label": "05 - SÃO PAULO"
+      },
+      {
+        "value": "06",
+        "label": "06 - SÃO PAULO"
+      },
+      {
+        "value": "07",
+        "label": "07 - SÃO PAULO"
+      },
+      {
+        "value": "08",
+        "label": "08 - SÃO PAULO"
+      },
+      {
+        "value": "09",
+        "label": "09 - SÃO PAULO"
+      },
+      {
+        "value": "10",
+        "label": "10 - SÃO PAULO"
+      },
+      {
+        "value": "11",
+        "label": "11 - SÃO PAULO"
+      },
+      {
+        "value": "12",
+        "label": "12 - SÃO PAULO"
+      },
+      {
+        "value": "13",
+        "label": "13 - SÃO PAULO"
+      },
+      {
+        "value": "14",
+        "label": "14 - SÃO PAULO"
+      },
+      {
+        "value": "15",
+        "label": "15 - SÃO PAULO"
+      },
+      {
+        "value": "16",
+        "label": "16 - SÃO PAULO"
+      }
+    ],
+    "transportadoraFilterOptions": [
+      {
+        "value": "00",
+        "label": "Todas"
+      },
+      {
+        "value": "01",
+        "label": "01 - PADRAO"
+      },
+      {
+        "value": "02",
+        "label": "02 - PADRAO"
+      },
+      {
+        "value": "03",
+        "label": "03 - PADRAO"
+      },
+      {
+        "value": "04",
+        "label": "04 - PADRAO"
+      },
+      {
+        "value": "05",
+        "label": "05 - PADRAO"
+      },
+      {
+        "value": "06",
+        "label": "06 - PADRAO"
+      },
+      {
+        "value": "07",
+        "label": "07 - PADRAO"
+      },
+      {
+        "value": "08",
+        "label": "08 - PADRAO"
+      },
+      {
+        "value": "09",
+        "label": "09 - PADRAO"
+      },
+      {
+        "value": "10",
+        "label": "10 - PADRAO"
+      },
+      {
+        "value": "11",
+        "label": "11 - PADRAO"
+      },
+      {
+        "value": "12",
+        "label": "12 - PADRAO"
+      },
+      {
+        "value": "13",
+        "label": "13 - PADRAO"
+      },
+      {
+        "value": "14",
+        "label": "14 - PADRAO"
+      },
+      {
+        "value": "15",
+        "label": "15 - PADRAO"
+      },
+      {
+        "value": "16",
+        "label": "16 - PADRAO"
+      }
+    ],
+    "vendedorFilterOptions": [
+      {
+        "value": "00",
+        "label": "Todos"
+      },
+      {
+        "value": "01",
+        "label": "01 - VENDEDOR PADRAO"
+      },
+      {
+        "value": "02",
+        "label": "02 - VENDEDOR PADRAO"
+      },
+      {
+        "value": "03",
+        "label": "03 - VENDEDOR PADRAO"
+      },
+      {
+        "value": "04",
+        "label": "04 - VENDEDOR PADRAO"
+      },
+      {
+        "value": "05",
+        "label": "05 - VENDEDOR PADRAO"
+      },
+      {
+        "value": "06",
+        "label": "06 - VENDEDOR PADRAO"
+      },
+      {
+        "value": "07",
+        "label": "07 - VENDEDOR PADRAO"
+      },
+      {
+        "value": "08",
+        "label": "08 - VENDEDOR PADRAO"
+      },
+      {
+        "value": "09",
+        "label": "09 - VENDEDOR PADRAO"
+      },
+      {
+        "value": "10",
+        "label": "10 - VENDEDOR PADRAO"
+      },
+      {
+        "value": "11",
+        "label": "11 - VENDEDOR PADRAO"
+      },
+      {
+        "value": "12",
+        "label": "12 - VENDEDOR PADRAO"
+      },
+      {
+        "value": "13",
+        "label": "13 - VENDEDOR PADRAO"
+      },
+      {
+        "value": "14",
+        "label": "14 - VENDEDOR PADRAO"
+      },
+      {
+        "value": "15",
+        "label": "15 - VENDEDOR PADRAO"
+      },
+      {
+        "value": "16",
+        "label": "16 - VENDEDOR PADRAO"
+      }
+    ],
+    "tipoDeClienteFilterOptions": [
+      {
+        "value": "00",
+        "label": "Todos"
+      },
+      {
+        "value": "01",
+        "label": "01 - CLIENTE PADRAO"
+      },
+      {
+        "value": "02",
+        "label": "02 - CLIENTE PADRAO"
+      },
+      {
+        "value": "03",
+        "label": "03 - CLIENTE PADRAO"
+      },
+      {
+        "value": "04",
+        "label": "04 - CLIENTE PADRAO"
+      },
+      {
+        "value": "05",
+        "label": "05 - CLIENTE PADRAO"
+      },
+      {
+        "value": "06",
+        "label": "06 - CLIENTE PADRAO"
+      },
+      {
+        "value": "07",
+        "label": "07 - CLIENTE PADRAO"
+      },
+      {
+        "value": "08",
+        "label": "08 - CLIENTE PADRAO"
+      },
+      {
+        "value": "09",
+        "label": "09 - CLIENTE PADRAO"
+      },
+      {
+        "value": "10",
+        "label": "10 - CLIENTE PADRAO"
+      },
+      {
+        "value": "11",
+        "label": "11 - CLIENTE PADRAO"
+      },
+      {
+        "value": "12",
+        "label": "12 - CLIENTE PADRAO"
+      },
+      {
+        "value": "13",
+        "label": "13 - CLIENTE PADRAO"
+      },
+      {
+        "value": "14",
+        "label": "14 - CLIENTE PADRAO"
+      },
+      {
+        "value": "15",
+        "label": "15 - CLIENTE PADRAO"
+      },
+      {
+        "value": "16",
+        "label": "16 - CLIENTE PADRAO"
+      }
+    ]
   }
 }
